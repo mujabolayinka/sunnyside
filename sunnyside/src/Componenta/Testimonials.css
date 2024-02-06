@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 80vh;
+}
+.cli1 h1{
+    letter-spacing: 12px;
+    color:  rgb(105, 99, 99);
+}
+.cli2{
+    display: flex;
+    gap: 50px;
+}
+.cli4 img, .cli8 img, .cli12 img{
+    height: 7vh;
+    border-radius: 20px;
+}
+.cli5 h5{
+    width: 19vw;
+}
+.cli9 h5{
+    width: 18.5vw;
+}
+.cli13 h5{
+    width: 19vw;
+}
+.cli3, .cli7, .cli11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+.cli6, .cli10, .cli14{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.cli5, .cli9, .cli13{
+    line-height: 20px;
+}
+.cli6 h5, .cli10 h5, .cli14 h5{
+    color: rgb(105, 99, 99);
+}
+.cli5 h5, .cli9 h5, .cli13 h5{
+    color: rgb(87, 80, 80);
+}

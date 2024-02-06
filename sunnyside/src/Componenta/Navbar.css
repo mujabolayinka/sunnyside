@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(50, 203, 241);
+}
+.sunny h3{
+    color: white;
+}
+.carry{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.cont button{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+}
+.cont button:hover{
+    background-color: rgb(120, 202, 113);
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+}

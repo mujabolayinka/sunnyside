@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stand1{
+    display: flex;
+    /* height: 100vh; */
+}
+.stand4 h5{
+    width: 24vw;
+}
+.stand3{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.stand4{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sta{
+    width: 49.5vw;
+}
